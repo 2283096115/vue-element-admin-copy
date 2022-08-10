@@ -22,7 +22,6 @@
 
 <script>
 export default {
-  name: 'LangSelect',
   computed: {
     language() {
       return this.$store.getters.language
